@@ -1,0 +1,129 @@
+body {
+  background-color: whitesmoke;
+  font-family: Open Sans, sans-serif;
+  color: #7d7d7d;
+  font-size: 15px;
+  line-height: 1.6em;
+  font-weight: 300;
+}
+
+h1, h2, h3 {
+  color: #7d7d7d;
+  font-family: Montserrat, sans-serif;
+}
+
+h1 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #17B978;
+}
+
+h2 {
+  font-size: 18px;
+  line-height: 1.6em;
+  font-weight: 400;
+  text-align: center;
+}
+
+h3 {
+  font-size: 16px;
+  line-height: 1.6em;
+  font-weight: 300;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  color: #ccc;
+}
+
+a:hover {
+  color: #17B978;
+}
+
+p {
+  font-size: 15px;
+  line-height: 1.6em;
+  font-weight: 300;
+}
+
+.container {
+  background-color: whitesmoke;
+  width: 500px;
+  margin: 30px auto;
+}
+
+.card {
+  background-color: white;
+  border-radius: 1%;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.shadowed {
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2)
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.IntroductionCard {
+  padding-top: 25px;
+  padding-bottom: 5px;
+}
+
+.IntroductionCard img {
+  height: 105px;
+}
+
+.FavoriteCard {
+  margin: 20px auto;
+}
+
+.FavoriteCard img {
+  height: 100px;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+.FavoriteCard p {
+  font-family: Open Sans, sans-serif;
+  text-align: justify;
+  padding-right: 5px;
+}
+
+.list-inline {
+  padding-left: 0px;
+  margin-bottom: 15px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 50px;
+  font-size: 15px;
+}
+
+.fa {
+  font-size: 25px;
+}
+
+.btn-green {
+  background-color: #17B978;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.btn-green:hover {
+  background-color: #227066;
+  color: white;
+}
